@@ -1,0 +1,78 @@
+#paragraph {
+  overflow: scroll;
+  max-height: 200px;
+  width: 250px;
+  padding: 10px;
+  background-color: aqua;
+}
+
+#div1 {
+  background: red;
+  width: 100px;
+  height: 100px;
+  border: 3px solid black;
+  animation-name: anime;
+  animation-duration: 4s;
+  animation-delay: 2s;
+  animation-iteration-count: 300;
+  position: relative;
+}
+#div2 {
+  background: greenyellow;
+  width: 100px;
+  height: 100px;
+  border: 3px solid black;
+  animation-name: anime;
+  animation-duration: 4s;
+  animation-delay: 4s;
+  animation-iteration-count: 300;
+  position: relative;
+}
+
+#div3 {
+  background: yellow;
+  width: 100px;
+  height: 100px;
+  border: 3px solid black;
+  animation-name: anime;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  animation-iteration-count: 300;
+  position: relative;
+  transform: rotate(45deg);
+}
+
+@keyframes anime {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+
+  25% {
+    background-color: yellow;
+    left: 300px;
+    top: 0px;
+  }
+
+  50% {
+    background-color: green;
+    left: 300px;
+    top: 300px;
+  }
+
+  75% {
+    background-color: blue;
+    left: 0px;
+    top: 300px;
+  }
+
+  100% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+}
+/*&#8592; left arrow
+
+&#8594; right arrow

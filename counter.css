@@ -1,0 +1,27 @@
+#value {
+  font-size: 200px;
+  font-family: Arial;
+  font-weight: bold;
+}
+.btn {
+  color: rgba(33, 32, 32, 0.79);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  margin-top: 100px;
+  padding-right: 30px;
+  padding-left: 30px;
+  font-weight: bold;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: rgba(2, 1, 1, 0.448);
+}
+
+.counter {
+  text-align: center;
+}
+.container {
+  background-color: rgba(139, 93, 181, 0.381);
+}

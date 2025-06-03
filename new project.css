@@ -1,0 +1,116 @@
+body {
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+}
+main {
+  background: #3ebfff;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  height: 100vh;
+}
+
+.links {
+  display: flex; 
+  justify-content: flex-end; 
+  align-items: center; 
+  gap: 20px; 
+  padding: 0; 
+  list-style: none; 
+  margin: 0; 
+}
+.links li a {
+  text-decoration: none; 
+  color: #fff;
+  font-size: 16px; 
+}
+
+.main-logo {
+  list-style: none;
+  display: inline-block;
+  margin-right: 20px;
+}
+ul .contact-btn {
+  background: #fff;
+  color: #000;
+  padding: 10px 20px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+}
+header ul .contact-btn a {
+  color: #a1dad8;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+  font-weight: 400px;
+  text-transform: capitalize;
+}
+.contact-btn:hover {
+  background-color: #cff2f1;
+  transition: all 0.3s ease-in-out;
+}
+
+/*main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*TO Swap images for mobile screen  */
+/*@media screen and (min-width: 320px) {
+  /*section {
+    background-image: url(/mobile//image-header.jpg);
+    position: fixed;
+  }*/
+
+/*.text {
+    top: 0;
+  }
+  .text h1 {
+    font-size: 0px;
+  }
+
+  .arrow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }/*
+
+
+/* Designs for the text we are creatives */
+.text {
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+  font-family:"Roboto", sans-serif;
+}
+
+section .text h1 {
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #fff;
+  margin-bottom: 20px;
+  font-family:"Roboto", sans-serif;
+}
+
+.page {
+  width: 100%;
+}
+
+.arrow {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.more{
+  color:violet;
+}

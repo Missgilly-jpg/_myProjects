@@ -1,0 +1,72 @@
+*body {
+  margin: 0px;
+  background-color: #00ffff21;
+}
+
+#image {
+  border-radius: 100%;
+  height: 190px;
+}
+
+.underline {
+  background-color: #00bcd4;
+  width: 10%;
+  height: 10px;
+  margin-left: 45%;
+  margin-bottom: 30px;
+  margin-right: 25%;
+}
+.article {
+  background-color: white;
+  text-align: center;
+}
+#info {
+  font-size: 20px;
+  background-color: rgb(193 192 192 / 9%);
+}
+.photo {
+  border-radius: 100%;
+  height: 180px;
+}
+
+#author {
+  font-weight: bold;
+  font-size: 15px;
+}
+#job {
+  color: #00bcd4;
+}
+.container {
+  background-color: #00bcd42b;
+}
+.title {
+  text-align: center;
+}
+.arrows {
+  background-color: rgb(193 192 192 / 9%);
+  margin-bottom: 20px;
+}
+.prev-btn {
+  color: #00bcd4;
+  background-color: #00bcd400;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.next-btn {
+  color: #00bcd4;
+  background-color: #00bcd400;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.random-btn {
+  border-radius: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #00bcd4;
+  border-color: #00bcd4;
+  cursor: pointer;
+}

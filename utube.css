@@ -1,0 +1,75 @@
+#header {
+  font-family: Roboto, Arial, sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.marriages {
+  width: 290px;
+  height: 290px;
+  display: flex;
+  flex-direction: row;
+}
+
+.search-bar {
+  display: block;
+}
+
+.young-asian {
+  border-radius: 40px;
+  width: 60px;
+}
+
+.video-title {
+  font-weight: bold;
+  font-size: 15px;
+  width: 150px;
+}
+
+#video-preview {
+  font-size: 10px;
+  font-family: Roboto, Arial, sans-serif;
+  display: flex; /* Enable Flexbox */
+  flex-direction: row; /* Ensure horizontal layout */
+  justify-content: space-between; /* Add space between child elements */
+  gap: 10px; /* Add spacing between child elements */
+  width: 100%; /* Ensure it spans the full width */
+  box-sizing: border-box;
+}
+
+.bishop2 {
+  width: 216px;
+  height: 290px;
+  display: flex;
+}
+
+.park {
+  border-radius: 40px;
+  width: 60px;
+}
+
+.video-info {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.profile-picture {
+  width: 100%;
+}
+
+.video-author,
+.video-stats {
+  color: rgb(96, 96, 96);
+  font-size: 12px;
+}
+.video-author {
+  margin-bottom: 4px;
+  color: rgb(96, 96, 96);
+}
+.spongebob {
+  width: 216px;
+  height: 303px;
+  display: flex;
+  justify-content: space-between;
+}
